@@ -13,6 +13,9 @@ public class Main {
         int numbers[] = new int[array];
         System.out.println("Input numbers to be sorted: ");
             for (int i = 0; i < array; i++) {
+                numbers[i] = input.nextInt();
+            }
+            for (int i = 0; i < array; i++) {
                 for (int j = i+1; j < array; j++) {
                     if (numbers[i] > numbers[j])
                     {
